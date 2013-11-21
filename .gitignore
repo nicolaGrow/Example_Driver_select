@@ -1,0 +1,32 @@
+
+# un commento - questo è ignorato
+# no file .a
+*.a
+# no file .o
+*.o
+# no file .order
+*.order
+#no file .ko
+*.ko
+#no file symvers
+*.symvers
+#no file .mk
+*.mk
+#no file .mod
+*.mod
+#no file temporanei~
+*~
+#no file .d
+*.d
+# no project file!!!!
+## ma traccia lib.a, mentre vengono ignorati tutti i file .a come sopra
+#!lib.a
+## ignora solamente il file TODO in root, non del tipo subdir/TODO
+#/TODO
+## ignora tutti i file nella directory build/
+#build/
+## ignora doc/note.txt, ma non doc/server/arch.txt
+#doc/*.txt
+## ignora tutti i file .txt nella directory doc/
+#doc/**/*.txt
+#Un pattern **/ è disponibile in Git dalla version 1.8.2.
