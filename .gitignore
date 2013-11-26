@@ -19,6 +19,10 @@
 #no file .d
 *.d
 # no project file!!!!
+dev_driver/new3t_driver/.cproject
+dev_driver/new3t_driver/.project
+
+
 ## ma traccia lib.a, mentre vengono ignorati tutti i file .a come sopra
 #!lib.a
 ## ignora solamente il file TODO in root, non del tipo subdir/TODO
